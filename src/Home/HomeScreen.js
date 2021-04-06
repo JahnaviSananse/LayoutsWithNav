@@ -22,7 +22,7 @@ function HomeScreen({navigation}) {
   };
   return (
     <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-      <Text style={{fontSize: 40, color: 'red'}}>Press any of Button</Text>
+      <Text style={{fontSize: 30, color: 'red'}}>Press any of Below</Text>
       <View style={{padding: 20}}>
         <TouchableOpacity onPress={onNext}>
           <Text style={{fontSize: 20}}>GO NEXT</Text>
